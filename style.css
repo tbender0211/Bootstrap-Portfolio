@@ -4,12 +4,13 @@ body {
 
 .navbar-text {
     background-color: teal;
-    padding: 20px;
-    font-size: 20px;
+    padding: 30px;
+    font-size: 30px;
 }
 
 .navbar {
     padding: 0;
+    border-bottom: 2px solid grey;
 }
 
 .footer {
@@ -22,7 +23,16 @@ body {
 }
 
 .footer {
-    background-color: teal;
-    border-top: 5px solid grey;
+    background-color: grey;
+    border-top: 5px solid teal;
 
+}
+h2 {
+    color: teal;
+}
+
+.btn {
+    color: white;
+    background-color: teal;
+    margin-bottom: 10px;
 }
